@@ -18,6 +18,7 @@ const config: Config = {
         "primary-color": "hsl(var(--primary-color))",
         "secondary-color": "hsl(var(--secondary-color))",
         "assent-color": "hsl(var(--accent-color))",
+        "background-color": "hsl(var(--background-color))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
