@@ -1,6 +1,7 @@
 import CategoryGrid from "@/components/home/CategoryGrid";
 import FeatureSection from "@/components/home/FeatureSection";
 import Hero from "@/components/home/Hero";
+import { SideBar } from "@/components/shared/navbar/SideBar";
 import SubHeadding from "@/components/shared/SubHeadding";
 
 import { ThreeDCardDemo } from "@/components/ui/FeatureCard";
@@ -30,6 +31,8 @@ export default function Home() {
        */}
 
       <FeatureSection />
+
+      <SideBar />
     </div>
   );
 }
