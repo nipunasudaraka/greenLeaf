@@ -6,7 +6,7 @@ import { Input } from "../ui/input";
 
 function SubscribeSection() {
   return (
-    <div className="flex justify-center items-center  my-16 bg-background-color w-full h-auto py-16">
+    <div className="flex justify-center items-center  mt-16 bg-background-color w-full h-auto py-16">
       <div className="w-full max-w-7xl grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center items-center bg-white h-auto rounded-xl shadow-md mx-6 px-14 lg:py-12">
         <div className="w-full flex items-center justify-center p-4 lg:col-span-1">
           <Image
