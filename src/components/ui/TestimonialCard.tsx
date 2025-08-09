@@ -25,7 +25,9 @@ function TestimonialCard({
           <FaStar key={index} />
         ))}
       </div>
-      <p className="text-center text-secondary-color font-inter">"{review}"</p>
+      <p className="text-center text-secondary-color font-inter">
+        &ldquo;{review}&rdquo;
+      </p>
       <h1 className="text-xl font-bold font-inter">{customerName}</h1>
       <p className="text-center font-inter text-sm text-muted-foreground">
         {plantName}

@@ -4,7 +4,6 @@ import Hero from "@/components/home/Hero";
 import { Testimonial } from "@/components/home/Testimonial";
 import SubHeadding from "@/components/shared/SubHeadding";
 import { Input } from "@/components/ui/input";
-import TestimonialCard from "@/components/ui/TestimonialCard";
 import { CiSearch } from "react-icons/ci";
 
 export default function Home() {
