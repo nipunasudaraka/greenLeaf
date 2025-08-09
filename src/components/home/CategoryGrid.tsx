@@ -26,7 +26,7 @@ const categories = [
 
 function CategoryGrid() {
   return (
-    <div className="grid grid-cols-2 gap-4 px-4 items-center justify-items-center">
+    <div className="grid grid-cols-2 gap-4 px-4 items-center justify-items-center w-full max-w-4xl">
       {categories.map((category) => (
         <CategoryCard
           key={category.id}

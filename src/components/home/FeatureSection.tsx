@@ -34,7 +34,7 @@ function FeatureSection() {
     <div className="w-full bg-background-color h-auto py-8 mt-10 ">
       <SubHeadding title="Featured Plants" />
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 px-8 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 px-8 max-w-7xl mx-auto ">
         {Features.map((feature) => (
           <FeatureCard
             key={feature.id}

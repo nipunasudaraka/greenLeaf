@@ -13,10 +13,10 @@ export function CategoryCard({
   imagePath,
 }: CategoryCardProps) {
   return (
-    <div className="max-w-xs w-full group/card">
+    <div className="w-full group/card">
       <div
         className={cn(
-          "cursor-pointer overflow-hidden relative card aspect-square rounded-md shadow-xl max-w-sm mx-auto flex flex-col justify-end p-6",
+          "cursor-pointer overflow-hidden relative card aspect-square rounded-md shadow-xl flex flex-col justify-end p-6",
           "bg-cover bg-center bg-no-repeat"
         )}
         style={{ backgroundImage: `url(${imagePath})` }}
