@@ -1,8 +1,10 @@
 import CategoryGrid from "@/components/home/CategoryGrid";
 import FeatureSection from "@/components/home/FeatureSection";
 import Hero from "@/components/home/Hero";
+import { Testimonial } from "@/components/home/Testimonial";
 import SubHeadding from "@/components/shared/SubHeadding";
 import { Input } from "@/components/ui/input";
+import TestimonialCard from "@/components/ui/TestimonialCard";
 import { CiSearch } from "react-icons/ci";
 
 export default function Home() {
@@ -25,6 +27,12 @@ export default function Home() {
       <CategoryGrid />
 
       <FeatureSection />
+
+      <div className="flex flex-col w-full max-w-8xl mx-auto  justify-center items-center h-[600px] ">
+        <SubHeadding title="What Our Customers Say" />
+
+        <Testimonial />
+      </div>
     </div>
   );
 }

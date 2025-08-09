@@ -21,7 +21,7 @@ function Hero() {
       <div className="absolute inset-0 container mx-auto px-4 mt-10 ">
         <div className="flex flex-col h-full items-center lg:items-start justify-end lg:justify-center max-w-8xl mx-auto pb-16">
           {/* Heading */}
-          <h1 className="text-4xl md:text-5xl lg:text-8xl font-bold font-playfairDisplay text-primary-color text-center lg:text-start mb-6 max-w-7xl">
+          <h1 className="text-4xl md:text-5xl lg:text-8xl font-bold font-playfairDisplay text-primary-color text-center lg:text-start mb-6 max-w-3xl">
             Bring Nature Into Your Space
           </h1>
 
