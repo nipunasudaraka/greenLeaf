@@ -5,7 +5,7 @@ import { FiShoppingBag } from "react-icons/fi";
 import { SideBar } from "./SideBar";
 function Navbar() {
   return (
-    <div className="w-full h-[50px] md:h-[70px] bg-background-color flex justify-between items-center px-4 md:px-32 lg:px-48 fixed top-0 z-50">
+    <div className="w-full h-[50px] md:h-[70px] bg-background-color flex justify-between items-center px-4 md:px-8 lg:px-48 fixed top-0 z-50">
       <div>
         <Image
           src="/assets/greenleafLogo.png"
@@ -17,7 +17,7 @@ function Navbar() {
       </div>
 
       {/* Desktop Navigation */}
-      <ul className="hidden md:flex justify-center items-center gap-8 h-full text-lg font-medium font-playfairDisplay text-primary-color">
+      <ul className="hidden md:flex justify-center items-center gap-8 h-full text-lg font-medium font-playfairDisplay text-primary-color mt-6">
         <li>
           <Link href="/">Home</Link>
         </li>

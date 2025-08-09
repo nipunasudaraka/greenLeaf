@@ -1,6 +1,7 @@
 import CategoryGrid from "@/components/home/CategoryGrid";
 import FeatureSection from "@/components/home/FeatureSection";
 import Hero from "@/components/home/Hero";
+import SubscribeSection from "@/components/home/SubscribeSection";
 import { Testimonial } from "@/components/home/Testimonial";
 import SubHeadding from "@/components/shared/SubHeadding";
 import { Input } from "@/components/ui/input";
@@ -32,6 +33,8 @@ export default function Home() {
 
         <Testimonial />
       </div>
+
+      <SubscribeSection />
     </div>
   );
 }
