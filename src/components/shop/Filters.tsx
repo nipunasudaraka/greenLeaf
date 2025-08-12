@@ -137,7 +137,7 @@ export function Filters({
       {/* Clear Filters Button */}
       <button
         onClick={clearFilters}
-        className="mt-4 bg-secondary-color text-white py-2 rounded hover:bg-primary-color
+        className="mt-4 bg-secon text-white py-2 rounded hover:bg-primary-color"
       >
         Clear Filters
       </button>
