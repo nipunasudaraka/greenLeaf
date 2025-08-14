@@ -3,9 +3,9 @@ import Image from "next/image";
 
 function AboutBanner() {
   return (
-    <div className="relative w-full h-80 ">
+    <div className="relative w-full h-80 lg:h-[600px]">
       <Image
-        src="/assets/shopIMG.jpg"
+        src="/assets/about.jpg"
         fill
         alt="Banner"
         className="object-cover "
