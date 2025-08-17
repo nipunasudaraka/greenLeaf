@@ -28,7 +28,6 @@ export default function PlantsGrid({
   const itemsPerPage = 6;
   const [currentPage, setCurrentPage] = React.useState(1);
 
-  // Helper to parse priceRange string like "0-50" or "500+"
   function priceFilter(plantPrice: number) {
     if (!priceRange) return true;
     if (priceRange === "500+") return plantPrice >= 500;
@@ -36,7 +35,6 @@ export default function PlantsGrid({
     return plantPrice >= min && plantPrice <= max;
   }
 
-  // Filter plants based on filter values
   const filteredPlants = plantData.filter((plant) => {
     const categoryMatch = category ? plant.category === category : true;
     const priceMatch = priceFilter(plant.price);
@@ -60,7 +58,6 @@ export default function PlantsGrid({
   );
 
   React.useEffect(() => {
-    // Reset page to 1 when filters change
     setCurrentPage(1);
   }, [category, priceRange, waterNeeds, lightNeeds]);
 
@@ -78,6 +75,7 @@ export default function PlantsGrid({
           currentItems.map((plant) => (
             <ProductCard
               key={plant.id}
+              id={plant.id} // ✅ Pass id for dynamic routing
               title={plant.name}
               price={plant.price}
               tag={plant.tag}
@@ -90,7 +88,6 @@ export default function PlantsGrid({
         )}
       </div>
 
-      {/* Pagination */}
       {totalPages > 1 && (
         <Pagination>
           <PaginationContent>

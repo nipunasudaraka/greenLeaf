@@ -10,6 +10,8 @@ export const plantData = [
     ratings: 4.8,
     sell: 120,
     img: "/assets/plants/p1",
+    description:
+      "A lush green fern that thrives in low light and humid environments. Its feathery fronds add a tropical feel to any space, making it perfect for bathrooms or shaded corners. Low maintenance and air-purifying, the Fern is a classic favorite for plant lovers.",
   },
   {
     id: 2,
@@ -22,6 +24,8 @@ export const plantData = [
     ratings: 4.9,
     sell: 12,
     img: "/assets/plants/p2",
+    description:
+      "The Pothos, often called the 'Devil’s Ivy', is a resilient trailing plant that grows effortlessly in low light conditions. Its heart-shaped leaves with golden variegation make it an elegant indoor companion. Perfect for hanging baskets or shelves, this plant thrives with minimal care.",
   },
   {
     id: 3,
@@ -34,6 +38,8 @@ export const plantData = [
     ratings: 4.7,
     sell: 80,
     img: "/assets/plants/p3",
+    description:
+      "Succulents are stylish, hardy plants that store water in their thick, fleshy leaves. Perfect for desks or windowsills, they require minimal watering and thrive in bright light. Add a touch of green with almost no effort!",
   },
   {
     id: 4,
@@ -46,6 +52,8 @@ export const plantData = [
     ratings: 4.6,
     sell: 10,
     img: "/assets/plants/p4",
+    description:
+      "The Calathea, also known as the 'Prayer Plant', is famous for its stunning patterned leaves that fold at night. A tropical beauty that loves humidity, making it an excellent choice for bright bathrooms or kitchens. Keep the soil moist for best results.",
   },
   {
     id: 5,
@@ -58,6 +66,8 @@ export const plantData = [
     ratings: 4.6,
     sell: 55,
     img: "/assets/plants/p5",
+    description:
+      "The Monstera Deliciosa, also known as the 'Swiss Cheese Plant', is a tropical showstopper with large, dramatic leaves full of unique splits. Perfect for modern interiors, it thrives in bright, indirect light and adds instant jungle vibes to your space.",
   },
   {
     id: 6,
@@ -70,6 +80,8 @@ export const plantData = [
     ratings: 4.5,
     sell: 95,
     img: "/assets/plants/p6",
+    description:
+      "Aloe Vera is not only a beautiful succulent but also a natural healer. Known for its medicinal gel, this sun-loving plant is perfect for bright windowsills. It requires minimal watering and is a must-have for any indoor garden.",
   },
   {
     id: 7,
@@ -82,6 +94,8 @@ export const plantData = [
     ratings: 4.9,
     sell: 150,
     img: "/assets/plants/p7",
+    description:
+      "The Snake Plant, or 'Mother-in-law's Tongue', is one of the most resilient indoor plants. It thrives in low light, requires little water, and actively purifies indoor air. Its tall, upright leaves add elegance to any room.",
   },
   {
     id: 8,
@@ -94,6 +108,8 @@ export const plantData = [
     ratings: 4.8,
     sell: 70,
     img: "/assets/plants/p8",
+    description:
+      "The Peace Lily is a timeless indoor plant with glossy green leaves and elegant white blooms. It thrives in low light and adds a calming presence to your home while also acting as a natural air purifier.",
   },
   {
     id: 9,
@@ -106,6 +122,8 @@ export const plantData = [
     ratings: 4.7,
     sell: 25,
     img: "/assets/plants/p9",
+    description:
+      "The Bonsai tree brings the art of miniature gardening to life. Perfect for bright indoor spaces, this living sculpture requires thoughtful care and adds a touch of Zen and sophistication to your home or office.",
   },
   {
     id: 10,
@@ -118,6 +136,8 @@ export const plantData = [
     ratings: 4.6,
     sell: 110,
     img: "/assets/plants/p10",
+    description:
+      "The Cactus is the ultimate low-maintenance plant for busy lifestyles. Thriving in full sun and requiring almost no water, it’s a perfect choice for desktops, shelves, or sunny windowsills with a modern aesthetic.",
   },
   {
     id: 11,
@@ -130,6 +150,8 @@ export const plantData = [
     ratings: 4.8,
     sell: 65,
     img: "/assets/plants/p11",
+    description:
+      "The ZZ Plant is one of the most indestructible houseplants. It tolerates low light, needs very little water, and still stays glossy and green. A great choice for beginners and modern interiors.",
   },
   {
     id: 12,
@@ -142,6 +164,8 @@ export const plantData = [
     ratings: 4.7,
     sell: 40,
     img: "/assets/plants/p12",
+    description:
+      "The Rubber Plant is an elegant houseplant with large, deep green leaves. It loves bright, indirect light and adds bold greenery to your living room or office. Easy to care for and stylish.",
   },
   {
     id: 13,
@@ -154,6 +178,8 @@ export const plantData = [
     ratings: 4.5,
     sell: 90,
     img: "/assets/plants/p13",
+    description:
+      "Lavender is a fragrant, flowering plant known for its calming aroma and beautiful purple blooms. It thrives in sunny spots and brings a soothing, natural fragrance to your home or garden.",
   },
   {
     id: 14,
@@ -166,6 +192,8 @@ export const plantData = [
     ratings: 4.9,
     sell: 33,
     img: "/assets/plants/p14",
+    description:
+      "The Orchid is an exotic flowering plant that exudes elegance and beauty. Perfect for bright interiors, it adds a luxurious touch with its vibrant blooms. A stunning gift or centerpiece.",
   },
   {
     id: 15,
@@ -178,6 +206,8 @@ export const plantData = [
     ratings: 4.6,
     sell: 77,
     img: "/assets/plants/p15",
+    description:
+      "The Spider Plant is a playful and hardy indoor plant with arching leaves and baby plantlets. It’s perfect for hanging baskets and is known for improving indoor air quality.",
   },
   {
     id: 16,
@@ -190,5 +220,7 @@ export const plantData = [
     ratings: 4.8,
     sell: 58,
     img: "/assets/plants/p16",
+    description:
+      "The Jade Plant is a classic succulent symbolizing good luck and prosperity. Its thick, glossy leaves make it a stunning addition to bright indoor spaces. Low maintenance and long-living.",
   },
 ];
